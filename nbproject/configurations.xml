@@ -1,0 +1,1330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="90">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="bam-0.4.0">
+        <df name="examples">
+          <df name="plugin">
+            <in>hello.c</in>
+          </df>
+        </df>
+        <df name="src">
+          <df name="lua">
+            <in>lapi.c</in>
+            <in>lauxlib.c</in>
+            <in>lbaselib.c</in>
+            <in>lcode.c</in>
+            <in>ldblib.c</in>
+            <in>ldebug.c</in>
+            <in>ldo.c</in>
+            <in>ldump.c</in>
+            <in>lfunc.c</in>
+            <in>lgc.c</in>
+            <in>linit.c</in>
+            <in>liolib.c</in>
+            <in>llex.c</in>
+            <in>lmathlib.c</in>
+            <in>lmem.c</in>
+            <in>loadlib.c</in>
+            <in>lobject.c</in>
+            <in>lopcodes.c</in>
+            <in>loslib.c</in>
+            <in>lparser.c</in>
+            <in>lstate.c</in>
+            <in>lstring.c</in>
+            <in>lstrlib.c</in>
+            <in>ltable.c</in>
+            <in>ltablib.c</in>
+            <in>ltm.c</in>
+            <in>lundump.c</in>
+            <in>lvm.c</in>
+            <in>lzio.c</in>
+            <in>print.c</in>
+          </df>
+          <df name="tools">
+            <in>txt2c.c</in>
+          </df>
+          <in>cache.c</in>
+          <in>context.c</in>
+          <in>dep_cpp.c</in>
+          <in>dep_search.c</in>
+          <in>luafuncs.c</in>
+          <in>main.c</in>
+          <in>mem.c</in>
+          <in>node.c</in>
+          <in>path.c</in>
+          <in>support.c</in>
+        </df>
+        <df name="tests">
+          <df name="collect_recurse">
+            <df name="extra">
+              <in>recursed.cpp</in>
+            </df>
+            <in>collect_recurse.cpp</in>
+          </df>
+          <df name="collect_wrong">
+            <in>collect_wrong.cpp</in>
+          </df>
+          <df name="cxx_dep">
+            <in>lib.c</in>
+            <in>main.c</in>
+          </df>
+          <df name="cyclic">
+            <in>cyclic.c</in>
+          </df>
+          <df name="deadlock">
+            <in>test.c</in>
+          </df>
+          <df name="deps">
+            <in>main.c</in>
+          </df>
+          <df name="dot.in.dir">
+            <in>dot_in_dir.cpp</in>
+          </df>
+          <df name="include_paths">
+            <in>include_paths.c</in>
+          </df>
+          <df name="locked">
+            <in>locked.cpp</in>
+          </df>
+          <df name="multi_target">
+            <in>multi_target.c</in>
+          </df>
+          <df name="retval">
+            <in>retval.cpp</in>
+          </df>
+          <df name="sharedlib">
+            <in>sharedlib.cpp</in>
+          </df>
+          <df name="subproject">
+            <df name="mod">
+              <df name="mod2">
+                <in>mod2.c</in>
+              </df>
+              <in>mod.c</in>
+            </df>
+            <in>main.c</in>
+          </df>
+        </df>
+      </df>
+      <df name="src">
+        <df name="base">
+          <in>system.c</in>
+        </df>
+        <df name="engine">
+          <df name="client">
+            <in>backend_sdl.cpp</in>
+            <in>client.cpp</in>
+            <in>friends.cpp</in>
+            <in>graphics.cpp</in>
+            <in>graphics_threaded.cpp</in>
+            <in>input.cpp</in>
+            <in>serverbrowser.cpp</in>
+            <in>sound.cpp</in>
+            <in>text.cpp</in>
+          </df>
+          <df name="external">
+            <df name="pnglite">
+              <in>pnglite.c</in>
+            </df>
+            <df name="wavpack">
+              <in>bits.c</in>
+              <in>float.c</in>
+              <in>metadata.c</in>
+              <in>unpack.c</in>
+              <in>words.c</in>
+              <in>wputils.c</in>
+            </df>
+            <df name="zlib">
+              <in>adler32.c</in>
+              <in>compress.c</in>
+              <in>crc32.c</in>
+              <in>deflate.c</in>
+              <in>infback.c</in>
+              <in>inffast.c</in>
+              <in>inflate.c</in>
+              <in>inftrees.c</in>
+              <in>trees.c</in>
+              <in>uncompr.c</in>
+              <in>zutil.c</in>
+            </df>
+          </df>
+          <df name="server">
+            <in>register.cpp</in>
+            <in>server.cpp</in>
+          </df>
+          <df name="shared">
+            <in>compression.cpp</in>
+            <in>config.cpp</in>
+            <in>console.cpp</in>
+            <in>datafile.cpp</in>
+            <in>demo.cpp</in>
+            <in>econ.cpp</in>
+            <in>engine.cpp</in>
+            <in>filecollection.cpp</in>
+            <in>huffman.cpp</in>
+            <in>jobs.cpp</in>
+            <in>kernel.cpp</in>
+            <in>linereader.cpp</in>
+            <in>map.cpp</in>
+            <in>mapchecker.cpp</in>
+            <in>masterserver.cpp</in>
+            <in>memheap.cpp</in>
+            <in>netban.cpp</in>
+            <in>network.cpp</in>
+            <in>network_client.cpp</in>
+            <in>network_conn.cpp</in>
+            <in>network_console.cpp</in>
+            <in>network_console_conn.cpp</in>
+            <in>network_server.cpp</in>
+            <in>packer.cpp</in>
+            <in>ringbuffer.cpp</in>
+            <in>snapshot.cpp</in>
+            <in>storage.cpp</in>
+          </df>
+        </df>
+        <df name="game">
+          <df name="client">
+            <df name="components">
+              <in>binds.cpp</in>
+              <in>broadcast.cpp</in>
+              <in>camera.cpp</in>
+              <in>chat.cpp</in>
+              <in>console.cpp</in>
+              <in>controls.cpp</in>
+              <in>countryflags.cpp</in>
+              <in>damageind.cpp</in>
+              <in>debughud.cpp</in>
+              <in>effects.cpp</in>
+              <in>emoticon.cpp</in>
+              <in>flow.cpp</in>
+              <in>hud.cpp</in>
+              <in>items.cpp</in>
+              <in>killmessages.cpp</in>
+              <in>mapimages.cpp</in>
+              <in>maplayers.cpp</in>
+              <in>menus.cpp</in>
+              <in>menus_browser.cpp</in>
+              <in>menus_demo.cpp</in>
+              <in>menus_ingame.cpp</in>
+              <in>menus_settings.cpp</in>
+              <in>motd.cpp</in>
+              <in>nameplates.cpp</in>
+              <in>particles.cpp</in>
+              <in>players.cpp</in>
+              <in>scoreboard.cpp</in>
+              <in>skins.cpp</in>
+              <in>sounds.cpp</in>
+              <in>spectator.cpp</in>
+              <in>voting.cpp</in>
+            </df>
+            <in>animstate.cpp</in>
+            <in>gameclient.cpp</in>
+            <in>lineinput.cpp</in>
+            <in>render.cpp</in>
+            <in>render_map.cpp</in>
+            <in>ui.cpp</in>
+          </df>
+          <df name="editor">
+            <in>auto_map.cpp</in>
+            <in>editor.cpp</in>
+            <in>io.cpp</in>
+            <in>layer_game.cpp</in>
+            <in>layer_quads.cpp</in>
+            <in>layer_tiles.cpp</in>
+            <in>popups.cpp</in>
+          </df>
+          <df name="generated">
+            <in>client_data.cpp</in>
+            <in>nethash.cpp</in>
+            <in>protocol.cpp</in>
+            <in>server_data.cpp</in>
+          </df>
+          <df name="server">
+            <df name="entities">
+              <in>character.cpp</in>
+              <in>flag.cpp</in>
+              <in>laser.cpp</in>
+              <in>pickup.cpp</in>
+              <in>projectile.cpp</in>
+            </df>
+            <df name="gamemodes">
+              <in>ctf.cpp</in>
+              <in>dm.cpp</in>
+              <in>mod.cpp</in>
+              <in>tdm.cpp</in>
+            </df>
+            <in>entity.cpp</in>
+            <in>eventhandler.cpp</in>
+            <in>gamecontext.cpp</in>
+            <in>gamecontroller.cpp</in>
+            <in>gameworld.cpp</in>
+            <in>player.cpp</in>
+          </df>
+          <in>collision.cpp</in>
+          <in>gamecore.cpp</in>
+          <in>layers.cpp</in>
+          <in>localization.cpp</in>
+        </df>
+        <df name="mastersrv">
+          <in>mastersrv.cpp</in>
+        </df>
+        <df name="osxlaunch">
+          <in>client.m</in>
+          <in>server.m</in>
+        </df>
+        <df name="tools">
+          <in>crapnet.cpp</in>
+          <in>dilate.cpp</in>
+          <in>fake_server.cpp</in>
+          <in>map_resave.cpp</in>
+          <in>map_version.cpp</in>
+          <in>packetgen.cpp</in>
+          <in>tileset_borderadd.cpp</in>
+          <in>tileset_borderfix.cpp</in>
+          <in>tileset_borderrem.cpp</in>
+          <in>tileset_borderset.cpp</in>
+        </df>
+        <df name="versionsrv">
+          <in>versionsrv.cpp</in>
+        </df>
+      </df>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Важные файлы"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>bam.lua</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>bam.lua</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>./bam-0.4.0/bam server_release</buildCommand>
+          <cleanCommand></cleanCommand>
+          <executablePath></executablePath>
+        </makeTool>
+      </makefileType>
+      <item path="bam-0.4.0/examples/plugin/hello.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="bam-0.4.0/src/cache.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="bam-0.4.0/src/context.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="bam-0.4.0/src/dep_cpp.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="bam-0.4.0/src/dep_search.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="bam-0.4.0/src/lua/lapi.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="bam-0.4.0/src/lua/lauxlib.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="bam-0.4.0/src/lua/lbaselib.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="bam-0.4.0/src/lua/lcode.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="bam-0.4.0/src/lua/ldblib.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="bam-0.4.0/src/lua/ldebug.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="bam-0.4.0/src/lua/ldo.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="bam-0.4.0/src/lua/ldump.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="bam-0.4.0/src/lua/lfunc.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="bam-0.4.0/src/lua/lgc.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="bam-0.4.0/src/lua/linit.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="bam-0.4.0/src/lua/liolib.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="bam-0.4.0/src/lua/llex.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="bam-0.4.0/src/lua/lmathlib.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="bam-0.4.0/src/lua/lmem.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="bam-0.4.0/src/lua/loadlib.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="bam-0.4.0/src/lua/lobject.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="bam-0.4.0/src/lua/lopcodes.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="bam-0.4.0/src/lua/loslib.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="bam-0.4.0/src/lua/lparser.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="bam-0.4.0/src/lua/lstate.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="bam-0.4.0/src/lua/lstring.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="bam-0.4.0/src/lua/lstrlib.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="bam-0.4.0/src/lua/ltable.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="bam-0.4.0/src/lua/ltablib.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="bam-0.4.0/src/lua/ltm.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="bam-0.4.0/src/lua/lundump.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="bam-0.4.0/src/lua/lvm.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="bam-0.4.0/src/lua/lzio.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="bam-0.4.0/src/lua/print.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="bam-0.4.0/src/luafuncs.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="bam-0.4.0/src/main.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="bam-0.4.0/src/mem.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="bam-0.4.0/src/node.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="bam-0.4.0/src/path.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="bam-0.4.0/src/support.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="bam-0.4.0/src/tools/txt2c.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="bam-0.4.0/tests/collect_recurse/collect_recurse.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="bam-0.4.0/tests/collect_recurse/extra/recursed.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="bam-0.4.0/tests/collect_wrong/collect_wrong.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="bam-0.4.0/tests/cxx_dep/lib.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="bam-0.4.0/tests/cxx_dep/main.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="bam-0.4.0/tests/cyclic/cyclic.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="bam-0.4.0/tests/deadlock/test.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="bam-0.4.0/tests/deps/main.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="bam-0.4.0/tests/dot.in.dir/dot_in_dir.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="bam-0.4.0/tests/include_paths/include_paths.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="bam-0.4.0/tests/locked/locked.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="bam-0.4.0/tests/multi_target/multi_target.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="bam-0.4.0/tests/retval/retval.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="bam-0.4.0/tests/sharedlib/sharedlib.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="bam-0.4.0/tests/subproject/main.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="bam-0.4.0/tests/subproject/mod/mod.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="bam-0.4.0/tests/subproject/mod/mod2/mod2.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="src/base/system.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="src/engine/client/backend_sdl.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/engine/client/client.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/engine/client/friends.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/engine/client/graphics.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/engine/client/graphics_threaded.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/engine/client/input.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/engine/client/serverbrowser.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/engine/client/sound.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/engine/client/text.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>other/freetype/include</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/engine/external/pnglite/pnglite.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="src/engine/external/wavpack/bits.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="src/engine/external/wavpack/float.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="src/engine/external/wavpack/metadata.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="src/engine/external/wavpack/unpack.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="src/engine/external/wavpack/words.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="src/engine/external/wavpack/wputils.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="src/engine/external/zlib/adler32.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="src/engine/external/zlib/compress.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="src/engine/external/zlib/crc32.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="src/engine/external/zlib/deflate.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="src/engine/external/zlib/infback.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="src/engine/external/zlib/inffast.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="src/engine/external/zlib/inflate.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="src/engine/external/zlib/inftrees.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="src/engine/external/zlib/trees.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="src/engine/external/zlib/uncompr.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="src/engine/external/zlib/zutil.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="src/engine/server/register.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/engine/server/server.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/engine/shared/compression.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/engine/shared/config.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/engine/shared/console.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/engine/shared/datafile.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/engine/shared/demo.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/engine/shared/econ.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/engine/shared/engine.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/engine/shared/filecollection.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/engine/shared/huffman.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/engine/shared/jobs.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/engine/shared/kernel.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/engine/shared/linereader.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/engine/shared/map.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/engine/shared/mapchecker.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/engine/shared/masterserver.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/engine/shared/memheap.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/engine/shared/netban.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/engine/shared/network.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/engine/shared/network_client.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/engine/shared/network_conn.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/engine/shared/network_console.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/engine/shared/network_console_conn.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/engine/shared/network_server.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/engine/shared/packer.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/engine/shared/ringbuffer.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/engine/shared/snapshot.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/engine/shared/storage.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/game/client/animstate.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/game/client/components/binds.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/game/client/components/broadcast.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/game/client/components/camera.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/game/client/components/chat.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/game/client/components/console.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/game/client/components/controls.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/game/client/components/countryflags.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/game/client/components/damageind.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/game/client/components/debughud.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/game/client/components/effects.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/game/client/components/emoticon.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/game/client/components/flow.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/game/client/components/hud.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/game/client/components/items.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/game/client/components/killmessages.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/game/client/components/mapimages.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/game/client/components/maplayers.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/game/client/components/menus.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/game/client/components/menus_browser.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/game/client/components/menus_demo.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/game/client/components/menus_ingame.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/game/client/components/menus_settings.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/game/client/components/motd.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/game/client/components/nameplates.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/game/client/components/particles.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/game/client/components/players.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/game/client/components/scoreboard.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/game/client/components/skins.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/game/client/components/sounds.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/game/client/components/spectator.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/game/client/components/voting.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/game/client/gameclient.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/game/client/lineinput.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/game/client/render.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/game/client/render_map.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/game/client/ui.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/game/collision.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/game/editor/auto_map.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/game/editor/editor.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/game/editor/io.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/game/editor/layer_game.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/game/editor/layer_quads.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/game/editor/layer_tiles.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/game/editor/popups.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/game/gamecore.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/game/generated/client_data.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/game/generated/nethash.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/game/generated/protocol.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/game/generated/server_data.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/game/layers.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/game/localization.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/game/server/entities/character.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>src</pElem>
+            <pElem>src/engine/external/zlib</pElem>
+            <pElem>.</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>CONF_RELEASE</Elem>
+          </preprocessorList>
+          <undefinedList>
+            <Elem>__EXCEPTIONS</Elem>
+          </undefinedList>
+        </ccTool>
+      </item>
+      <item path="src/game/server/entities/flag.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/game/server/entities/laser.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/game/server/entities/pickup.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/game/server/entities/projectile.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/game/server/entity.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/game/server/eventhandler.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/game/server/gamecontext.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>src</pElem>
+            <pElem>src/engine/external/zlib</pElem>
+            <pElem>.</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>CONF_RELEASE</Elem>
+          </preprocessorList>
+          <undefinedList>
+            <Elem>__EXCEPTIONS</Elem>
+          </undefinedList>
+        </ccTool>
+      </item>
+      <item path="src/game/server/gamecontroller.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>src</pElem>
+            <pElem>src/engine/external/zlib</pElem>
+            <pElem>.</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>CONF_RELEASE</Elem>
+          </preprocessorList>
+          <undefinedList>
+            <Elem>__EXCEPTIONS</Elem>
+          </undefinedList>
+        </ccTool>
+      </item>
+      <item path="src/game/server/gamemodes/ctf.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>src</pElem>
+            <pElem>src/engine/external/zlib</pElem>
+            <pElem>.</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>CONF_RELEASE</Elem>
+          </preprocessorList>
+          <undefinedList>
+            <Elem>__EXCEPTIONS</Elem>
+          </undefinedList>
+        </ccTool>
+      </item>
+      <item path="src/game/server/gamemodes/dm.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/game/server/gamemodes/mod.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/game/server/gamemodes/tdm.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/game/server/gameworld.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/game/server/player.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/mastersrv/mastersrv.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/osxlaunch/client.m" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="src/osxlaunch/server.m" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="src/tools/crapnet.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/tools/dilate.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/tools/fake_server.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/tools/map_resave.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/tools/map_version.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/tools/packetgen.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/tools/tileset_borderadd.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/tools/tileset_borderfix.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/tools/tileset_borderrem.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/tools/tileset_borderset.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="src/versionsrv/versionsrv.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

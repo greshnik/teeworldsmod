@@ -1,0 +1,826 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="90">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="bam-0.4.0">
+        <df name="docs">
+        </df>
+        <df name="examples">
+          <df name="plugin">
+            <in>hello.c</in>
+          </df>
+        </df>
+        <df name="scripts">
+        </df>
+        <df name="src">
+          <df name="lua">
+            <in>lapi.c</in>
+            <in>lapi.h</in>
+            <in>lauxlib.c</in>
+            <in>lauxlib.h</in>
+            <in>lbaselib.c</in>
+            <in>lcode.c</in>
+            <in>lcode.h</in>
+            <in>ldblib.c</in>
+            <in>ldebug.c</in>
+            <in>ldebug.h</in>
+            <in>ldo.c</in>
+            <in>ldo.h</in>
+            <in>ldump.c</in>
+            <in>lfunc.c</in>
+            <in>lfunc.h</in>
+            <in>lgc.c</in>
+            <in>lgc.h</in>
+            <in>linit.c</in>
+            <in>liolib.c</in>
+            <in>llex.c</in>
+            <in>llex.h</in>
+            <in>llimits.h</in>
+            <in>lmathlib.c</in>
+            <in>lmem.c</in>
+            <in>lmem.h</in>
+            <in>loadlib.c</in>
+            <in>lobject.c</in>
+            <in>lobject.h</in>
+            <in>lopcodes.c</in>
+            <in>lopcodes.h</in>
+            <in>loslib.c</in>
+            <in>lparser.c</in>
+            <in>lparser.h</in>
+            <in>lstate.c</in>
+            <in>lstate.h</in>
+            <in>lstring.c</in>
+            <in>lstring.h</in>
+            <in>lstrlib.c</in>
+            <in>ltable.c</in>
+            <in>ltable.h</in>
+            <in>ltablib.c</in>
+            <in>ltm.c</in>
+            <in>ltm.h</in>
+            <in>lua.h</in>
+            <in>luaconf.h</in>
+            <in>lualib.h</in>
+            <in>lundump.c</in>
+            <in>lundump.h</in>
+            <in>lvm.c</in>
+            <in>lvm.h</in>
+            <in>lzio.c</in>
+            <in>lzio.h</in>
+            <in>print.c</in>
+          </df>
+          <df name="tools">
+            <in>txt2c.c</in>
+          </df>
+          <in>cache.c</in>
+          <in>cache.h</in>
+          <in>context.c</in>
+          <in>context.h</in>
+          <in>dep_cpp.c</in>
+          <in>dep_search.c</in>
+          <in>internal_base.h</in>
+          <in>luafuncs.c</in>
+          <in>luafuncs.h</in>
+          <in>main.c</in>
+          <in>mem.c</in>
+          <in>mem.h</in>
+          <in>node.c</in>
+          <in>node.h</in>
+          <in>nodelinktree.inl</in>
+          <in>path.c</in>
+          <in>path.h</in>
+          <in>platform.h</in>
+          <in>session.h</in>
+          <in>support.c</in>
+          <in>support.h</in>
+          <in>tree.h</in>
+          <in>version.h</in>
+        </df>
+        <df name="tests">
+          <df name="addorder">
+          </df>
+          <df name="collect_recurse">
+            <df name="extra">
+              <in>recursed.cpp</in>
+            </df>
+            <in>collect_recurse.cpp</in>
+          </df>
+          <df name="collect_wrong">
+            <in>collect_wrong.cpp</in>
+          </df>
+          <df name="cxx_dep">
+            <df name="dir">
+              <in>system_header.h</in>
+            </df>
+            <in>lib.c</in>
+            <in>local_header.h</in>
+            <in>main.c</in>
+          </df>
+          <df name="cyclic">
+            <in>cyclic.c</in>
+            <in>header1.h</in>
+            <in>header2.h</in>
+          </df>
+          <df name="deadlock">
+            <in>header1.h</in>
+            <in>header2.h</in>
+            <in>test.c</in>
+          </df>
+          <df name="deps">
+            <in>main.c</in>
+          </df>
+          <df name="dot.in.dir">
+            <in>dot_in_dir.cpp</in>
+          </df>
+          <df name="include_paths">
+            <df name="dir">
+              <in>system_header.h</in>
+            </df>
+            <in>include_paths.c</in>
+            <in>local_header.h</in>
+          </df>
+          <df name="locked">
+            <in>locked.cpp</in>
+          </df>
+          <df name="multi_target">
+            <in>multi_target.c</in>
+          </df>
+          <df name="retval">
+            <in>retval.cpp</in>
+          </df>
+          <df name="sharedlib">
+            <in>sharedlib.cpp</in>
+          </df>
+          <df name="subproject">
+            <df name="mod">
+              <df name="mod2">
+                <in>mod2.c</in>
+                <in>mod2.h</in>
+              </df>
+              <in>mod.c</in>
+              <in>mod.h</in>
+            </df>
+            <in>main.c</in>
+          </df>
+        </df>
+      </df>
+      <df name="data">
+        <df name="audio">
+        </df>
+        <df name="countryflags">
+        </df>
+        <df name="editor">
+        </df>
+        <df name="fonts">
+        </df>
+        <df name="languages">
+        </df>
+        <df name="mapres">
+        </df>
+        <df name="maps">
+        </df>
+        <df name="skins">
+        </df>
+      </df>
+      <df name="datasrc">
+      </df>
+      <df name="docs">
+        <df name="conf">
+          <df name="Data">
+          </df>
+        </df>
+        <df name="tool">
+          <df name="Config">
+          </df>
+          <df name="Help">
+            <df name="documenting">
+            </df>
+            <df name="example">
+            </df>
+            <df name="images">
+              <df name="header">
+              </df>
+              <df name="menu">
+              </df>
+            </df>
+            <df name="javascript">
+            </df>
+          </df>
+          <df name="Info">
+            <df name="images">
+            </df>
+          </df>
+          <df name="JavaScript">
+          </df>
+          <df name="Modules">
+            <df name="NaturalDocs">
+              <df name="Builder">
+              </df>
+              <df name="ClassHierarchy">
+              </df>
+              <df name="ImageReferenceTable">
+              </df>
+              <df name="Languages">
+                <df name="Advanced">
+                </df>
+                <df name="Prototype">
+                </df>
+              </df>
+              <df name="Menu">
+              </df>
+              <df name="Parser">
+              </df>
+              <df name="Project">
+              </df>
+              <df name="Settings">
+              </df>
+              <df name="SourceDB">
+              </df>
+              <df name="SymbolTable">
+              </df>
+              <df name="Topics">
+              </df>
+            </df>
+          </df>
+          <df name="Styles">
+          </df>
+        </df>
+      </df>
+      <df name="objs">
+        <df name="base">
+        </df>
+        <df name="engine">
+          <df name="client">
+          </df>
+          <df name="external">
+            <df name="pnglite">
+            </df>
+            <df name="wavpack">
+            </df>
+            <df name="zlib">
+            </df>
+          </df>
+          <df name="server">
+          </df>
+          <df name="shared">
+          </df>
+        </df>
+        <df name="game">
+          <df name="client">
+            <df name="components">
+            </df>
+          </df>
+          <df name="editor">
+          </df>
+          <df name="generated">
+          </df>
+          <df name="server">
+            <df name="entities">
+            </df>
+            <df name="gamemodes">
+            </df>
+          </df>
+        </df>
+        <df name="mastersrv">
+        </df>
+        <df name="tools">
+        </df>
+        <df name="versionsrv">
+        </df>
+      </df>
+      <df name="other">
+        <df name="freetype">
+          <df name="include">
+            <df name="freetype">
+              <df name="config">
+                <in>ftconfig.h</in>
+                <in>ftheader.h</in>
+                <in>ftmodule.h</in>
+                <in>ftoption.h</in>
+                <in>ftstdlib.h</in>
+              </df>
+              <df name="internal">
+                <df name="services">
+                  <in>svbdf.h</in>
+                  <in>svcid.h</in>
+                  <in>svgldict.h</in>
+                  <in>svgxval.h</in>
+                  <in>svkern.h</in>
+                  <in>svmm.h</in>
+                  <in>svotval.h</in>
+                  <in>svpfr.h</in>
+                  <in>svpostnm.h</in>
+                  <in>svpscmap.h</in>
+                  <in>svpsinfo.h</in>
+                  <in>svsfnt.h</in>
+                  <in>svttcmap.h</in>
+                  <in>svtteng.h</in>
+                  <in>svttglyf.h</in>
+                  <in>svwinfnt.h</in>
+                  <in>svxf86nm.h</in>
+                </df>
+                <in>autohint.h</in>
+                <in>ftcalc.h</in>
+                <in>ftdebug.h</in>
+                <in>ftdriver.h</in>
+                <in>ftgloadr.h</in>
+                <in>ftmemory.h</in>
+                <in>ftobjs.h</in>
+                <in>ftpic.h</in>
+                <in>ftrfork.h</in>
+                <in>ftserv.h</in>
+                <in>ftstream.h</in>
+                <in>fttrace.h</in>
+                <in>ftvalid.h</in>
+                <in>internal.h</in>
+                <in>psaux.h</in>
+                <in>pshints.h</in>
+                <in>sfnt.h</in>
+                <in>t1types.h</in>
+                <in>tttypes.h</in>
+              </df>
+              <in>freetype.h</in>
+              <in>ftadvanc.h</in>
+              <in>ftbbox.h</in>
+              <in>ftbdf.h</in>
+              <in>ftbitmap.h</in>
+              <in>ftbzip2.h</in>
+              <in>ftcache.h</in>
+              <in>ftchapters.h</in>
+              <in>ftcid.h</in>
+              <in>fterrdef.h</in>
+              <in>fterrors.h</in>
+              <in>ftgasp.h</in>
+              <in>ftglyph.h</in>
+              <in>ftgxval.h</in>
+              <in>ftgzip.h</in>
+              <in>ftimage.h</in>
+              <in>ftincrem.h</in>
+              <in>ftlcdfil.h</in>
+              <in>ftlist.h</in>
+              <in>ftlzw.h</in>
+              <in>ftmac.h</in>
+              <in>ftmm.h</in>
+              <in>ftmodapi.h</in>
+              <in>ftmoderr.h</in>
+              <in>ftotval.h</in>
+              <in>ftoutln.h</in>
+              <in>ftpfr.h</in>
+              <in>ftrender.h</in>
+              <in>ftsizes.h</in>
+              <in>ftsnames.h</in>
+              <in>ftstroke.h</in>
+              <in>ftsynth.h</in>
+              <in>ftsystem.h</in>
+              <in>fttrigon.h</in>
+              <in>fttypes.h</in>
+              <in>ftwinfnt.h</in>
+              <in>ftxf86.h</in>
+              <in>t1tables.h</in>
+              <in>ttnameid.h</in>
+              <in>tttables.h</in>
+              <in>tttags.h</in>
+              <in>ttunpat.h</in>
+            </df>
+            <in>ft2build.h</in>
+          </df>
+          <df name="lib32">
+          </df>
+          <df name="lib64">
+          </df>
+        </df>
+        <df name="icons">
+        </df>
+        <df name="sdl">
+          <df name="include">
+            <in>SDL.h</in>
+            <in>SDL_active.h</in>
+            <in>SDL_audio.h</in>
+            <in>SDL_byteorder.h</in>
+            <in>SDL_cdrom.h</in>
+            <in>SDL_config.h</in>
+            <in>SDL_config_amiga.h</in>
+            <in>SDL_config_dreamcast.h</in>
+            <in>SDL_config_macos.h</in>
+            <in>SDL_config_macosx.h</in>
+            <in>SDL_config_minimal.h</in>
+            <in>SDL_config_nds.h</in>
+            <in>SDL_config_os2.h</in>
+            <in>SDL_config_symbian.h</in>
+            <in>SDL_config_win32.h</in>
+            <in>SDL_copying.h</in>
+            <in>SDL_cpuinfo.h</in>
+            <in>SDL_endian.h</in>
+            <in>SDL_error.h</in>
+            <in>SDL_events.h</in>
+            <in>SDL_getenv.h</in>
+            <in>SDL_joystick.h</in>
+            <in>SDL_keyboard.h</in>
+            <in>SDL_keysym.h</in>
+            <in>SDL_loadso.h</in>
+            <in>SDL_main.h</in>
+            <in>SDL_mouse.h</in>
+            <in>SDL_mutex.h</in>
+            <in>SDL_name.h</in>
+            <in>SDL_opengl.h</in>
+            <in>SDL_platform.h</in>
+            <in>SDL_quit.h</in>
+            <in>SDL_rwops.h</in>
+            <in>SDL_stdinc.h</in>
+            <in>SDL_syswm.h</in>
+            <in>SDL_thread.h</in>
+            <in>SDL_timer.h</in>
+            <in>SDL_types.h</in>
+            <in>SDL_version.h</in>
+            <in>SDL_video.h</in>
+            <in>begin_code.h</in>
+            <in>close_code.h</in>
+          </df>
+          <df name="lib32">
+          </df>
+          <df name="lib64">
+          </df>
+        </df>
+      </df>
+      <df name="scripts">
+        <in>SDL_keysym.h</in>
+      </df>
+      <df name="src">
+        <df name="base">
+          <df name="tl">
+            <in>algorithm.h</in>
+            <in>allocator.h</in>
+            <in>array.h</in>
+            <in>base.h</in>
+            <in>range.h</in>
+            <in>sorted_array.h</in>
+            <in>string.h</in>
+            <in>threading.h</in>
+          </df>
+          <in>detect.h</in>
+          <in>math.h</in>
+          <in>system.c</in>
+          <in>system.h</in>
+          <in>vmath.h</in>
+        </df>
+        <df name="engine">
+          <df name="client">
+            <in>backend_sdl.cpp</in>
+            <in>backend_sdl.h</in>
+            <in>client.cpp</in>
+            <in>client.h</in>
+            <in>friends.cpp</in>
+            <in>friends.h</in>
+            <in>graphics.cpp</in>
+            <in>graphics.h</in>
+            <in>graphics_threaded.cpp</in>
+            <in>graphics_threaded.h</in>
+            <in>input.cpp</in>
+            <in>input.h</in>
+            <in>keynames.h</in>
+            <in>serverbrowser.cpp</in>
+            <in>serverbrowser.h</in>
+            <in>sound.cpp</in>
+            <in>sound.h</in>
+            <in>text.cpp</in>
+          </df>
+          <df name="docs">
+          </df>
+          <df name="external">
+            <df name="pnglite">
+              <in>pnglite.c</in>
+              <in>pnglite.h</in>
+            </df>
+            <df name="wavpack">
+              <in>arm.S</in>
+              <in>arml.S</in>
+              <in>bits.c</in>
+              <in>coldfire.S</in>
+              <in>float.c</in>
+              <in>metadata.c</in>
+              <in>unpack.c</in>
+              <in>wavpack.h</in>
+              <in>words.c</in>
+              <in>wputils.c</in>
+            </df>
+            <df name="zlib">
+              <in>adler32.c</in>
+              <in>compress.c</in>
+              <in>crc32.c</in>
+              <in>crc32.h</in>
+              <in>deflate.c</in>
+              <in>deflate.h</in>
+              <in>infback.c</in>
+              <in>inffast.c</in>
+              <in>inffast.h</in>
+              <in>inffixed.h</in>
+              <in>inflate.c</in>
+              <in>inflate.h</in>
+              <in>inftrees.c</in>
+              <in>inftrees.h</in>
+              <in>trees.c</in>
+              <in>trees.h</in>
+              <in>uncompr.c</in>
+              <in>zconf.h</in>
+              <in>zlib.h</in>
+              <in>zutil.c</in>
+              <in>zutil.h</in>
+            </df>
+          </df>
+          <df name="server">
+            <in>register.cpp</in>
+            <in>register.h</in>
+            <in>server.cpp</in>
+            <in>server.h</in>
+          </df>
+          <df name="shared">
+            <in>compression.cpp</in>
+            <in>compression.h</in>
+            <in>config.cpp</in>
+            <in>config.h</in>
+            <in>config_variables.h</in>
+            <in>console.cpp</in>
+            <in>console.h</in>
+            <in>datafile.cpp</in>
+            <in>datafile.h</in>
+            <in>demo.cpp</in>
+            <in>demo.h</in>
+            <in>econ.cpp</in>
+            <in>econ.h</in>
+            <in>engine.cpp</in>
+            <in>filecollection.cpp</in>
+            <in>filecollection.h</in>
+            <in>huffman.cpp</in>
+            <in>huffman.h</in>
+            <in>jobs.cpp</in>
+            <in>jobs.h</in>
+            <in>kernel.cpp</in>
+            <in>linereader.cpp</in>
+            <in>linereader.h</in>
+            <in>map.cpp</in>
+            <in>mapchecker.cpp</in>
+            <in>mapchecker.h</in>
+            <in>masterserver.cpp</in>
+            <in>memheap.cpp</in>
+            <in>memheap.h</in>
+            <in>message.h</in>
+            <in>netban.cpp</in>
+            <in>netban.h</in>
+            <in>network.cpp</in>
+            <in>network.h</in>
+            <in>network_client.cpp</in>
+            <in>network_conn.cpp</in>
+            <in>network_console.cpp</in>
+            <in>network_console_conn.cpp</in>
+            <in>network_server.cpp</in>
+            <in>packer.cpp</in>
+            <in>packer.h</in>
+            <in>protocol.h</in>
+            <in>ringbuffer.cpp</in>
+            <in>ringbuffer.h</in>
+            <in>snapshot.cpp</in>
+            <in>snapshot.h</in>
+            <in>storage.cpp</in>
+          </df>
+          <in>client.h</in>
+          <in>config.h</in>
+          <in>console.h</in>
+          <in>demo.h</in>
+          <in>editor.h</in>
+          <in>engine.h</in>
+          <in>friends.h</in>
+          <in>graphics.h</in>
+          <in>input.h</in>
+          <in>kernel.h</in>
+          <in>keys.h</in>
+          <in>map.h</in>
+          <in>masterserver.h</in>
+          <in>message.h</in>
+          <in>server.h</in>
+          <in>serverbrowser.h</in>
+          <in>sound.h</in>
+          <in>storage.h</in>
+          <in>textrender.h</in>
+        </df>
+        <df name="game">
+          <df name="client">
+            <df name="components">
+              <in>binds.cpp</in>
+              <in>binds.h</in>
+              <in>broadcast.cpp</in>
+              <in>broadcast.h</in>
+              <in>camera.cpp</in>
+              <in>camera.h</in>
+              <in>chat.cpp</in>
+              <in>chat.h</in>
+              <in>console.cpp</in>
+              <in>console.h</in>
+              <in>controls.cpp</in>
+              <in>controls.h</in>
+              <in>countryflags.cpp</in>
+              <in>countryflags.h</in>
+              <in>damageind.cpp</in>
+              <in>damageind.h</in>
+              <in>debughud.cpp</in>
+              <in>debughud.h</in>
+              <in>effects.cpp</in>
+              <in>effects.h</in>
+              <in>emoticon.cpp</in>
+              <in>emoticon.h</in>
+              <in>flow.cpp</in>
+              <in>flow.h</in>
+              <in>hud.cpp</in>
+              <in>hud.h</in>
+              <in>items.cpp</in>
+              <in>items.h</in>
+              <in>killmessages.cpp</in>
+              <in>killmessages.h</in>
+              <in>mapimages.cpp</in>
+              <in>mapimages.h</in>
+              <in>maplayers.cpp</in>
+              <in>maplayers.h</in>
+              <in>menus.cpp</in>
+              <in>menus.h</in>
+              <in>menus_browser.cpp</in>
+              <in>menus_demo.cpp</in>
+              <in>menus_ingame.cpp</in>
+              <in>menus_settings.cpp</in>
+              <in>motd.cpp</in>
+              <in>motd.h</in>
+              <in>nameplates.cpp</in>
+              <in>nameplates.h</in>
+              <in>particles.cpp</in>
+              <in>particles.h</in>
+              <in>players.cpp</in>
+              <in>players.h</in>
+              <in>scoreboard.cpp</in>
+              <in>scoreboard.h</in>
+              <in>skins.cpp</in>
+              <in>skins.h</in>
+              <in>sounds.cpp</in>
+              <in>sounds.h</in>
+              <in>spectator.cpp</in>
+              <in>spectator.h</in>
+              <in>voting.cpp</in>
+              <in>voting.h</in>
+            </df>
+            <in>animstate.cpp</in>
+            <in>animstate.h</in>
+            <in>component.h</in>
+            <in>gameclient.cpp</in>
+            <in>gameclient.h</in>
+            <in>lineinput.cpp</in>
+            <in>lineinput.h</in>
+            <in>render.cpp</in>
+            <in>render.h</in>
+            <in>render_map.cpp</in>
+            <in>ui.cpp</in>
+            <in>ui.h</in>
+          </df>
+          <df name="editor">
+            <in>auto_map.cpp</in>
+            <in>auto_map.h</in>
+            <in>editor.cpp</in>
+            <in>editor.h</in>
+            <in>io.cpp</in>
+            <in>layer_game.cpp</in>
+            <in>layer_quads.cpp</in>
+            <in>layer_tiles.cpp</in>
+            <in>popups.cpp</in>
+          </df>
+          <df name="generated">
+            <in>client_data.cpp</in>
+            <in>client_data.h</in>
+            <in>nethash.cpp</in>
+            <in>protocol.cpp</in>
+            <in>protocol.h</in>
+            <in>server_data.cpp</in>
+            <in>server_data.h</in>
+          </df>
+          <df name="server">
+            <df name="entities">
+              <in>character.cpp</in>
+              <in>character.h</in>
+              <in>flag.cpp</in>
+              <in>flag.h</in>
+              <in>laser.cpp</in>
+              <in>laser.h</in>
+              <in>pickup.cpp</in>
+              <in>pickup.h</in>
+              <in>projectile.cpp</in>
+              <in>projectile.h</in>
+            </df>
+            <df name="gamemodes">
+              <in>ctf.cpp</in>
+              <in>ctf.h</in>
+              <in>dm.cpp</in>
+              <in>dm.h</in>
+              <in>mod.cpp</in>
+              <in>mod.h</in>
+              <in>tdm.cpp</in>
+              <in>tdm.h</in>
+            </df>
+            <in>entity.cpp</in>
+            <in>entity.h</in>
+            <in>eventhandler.cpp</in>
+            <in>eventhandler.h</in>
+            <in>gamecontext.cpp</in>
+            <in>gamecontext.h</in>
+            <in>gamecontroller.cpp</in>
+            <in>gamecontroller.h</in>
+            <in>gameworld.cpp</in>
+            <in>gameworld.h</in>
+            <in>player.cpp</in>
+            <in>player.h</in>
+          </df>
+          <in>collision.cpp</in>
+          <in>collision.h</in>
+          <in>gamecore.cpp</in>
+          <in>gamecore.h</in>
+          <in>layers.cpp</in>
+          <in>layers.h</in>
+          <in>localization.cpp</in>
+          <in>localization.h</in>
+          <in>mapitems.h</in>
+          <in>tuning.h</in>
+          <in>variables.h</in>
+          <in>version.h</in>
+          <in>voting.h</in>
+        </df>
+        <df name="mastersrv">
+          <in>mastersrv.cpp</in>
+          <in>mastersrv.h</in>
+        </df>
+        <df name="osxlaunch">
+          <in>client.h</in>
+          <in>client.m</in>
+          <in>server.m</in>
+        </df>
+        <df name="tools">
+          <in>crapnet.cpp</in>
+          <in>dilate.cpp</in>
+          <in>fake_server.cpp</in>
+          <in>map_resave.cpp</in>
+          <in>map_version.cpp</in>
+          <in>packetgen.cpp</in>
+          <in>tileset_borderadd.cpp</in>
+          <in>tileset_borderfix.cpp</in>
+          <in>tileset_borderrem.cpp</in>
+          <in>tileset_borderset.cpp</in>
+        </df>
+        <df name="versionsrv">
+          <in>mapversions.h</in>
+          <in>versionsrv.cpp</in>
+          <in>versionsrv.h</in>
+        </df>
+      </df>
+    </df>
+  </logicalFolder>
+  <projectmakefile>bam.lua</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <compile>
+        <compiledirpicklist>
+          <compiledirpicklistitem>.</compiledirpicklistitem>
+          <compiledirpicklistitem>${AUTO_FOLDER}</compiledirpicklistitem>
+        </compiledirpicklist>
+        <compiledir>${AUTO_FOLDER}</compiledir>
+        <compilecommandpicklist>
+          <compilecommandpicklistitem>${MAKE} ${ITEM_NAME}.o</compilecommandpicklistitem>
+          <compilecommandpicklistitem>${AUTO_COMPILE}</compilecommandpicklistitem>
+        </compilecommandpicklist>
+        <compilecommand>${AUTO_COMPILE}</compilecommand>
+      </compile>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"</runcommand>
+        <rundir>.</rundir>
+        <buildfirst>false</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+  </confs>
+</configurationDescriptor>
